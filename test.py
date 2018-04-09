@@ -1,14 +1,9 @@
-import os
-from flask import Flask
 import time, sys
 import http.client, urllib.request, urllib.parse, urllib.error
 import random
 
-#app = Flask(__name__)
+API_KEY_WRITE = 'TZOLPCLYLWWZTWCH'  # Specify your Write API Key !!!
 
-#@app.route('/')
-
-API_KEY_WRITE = 'TZOLPCLYLWWZTWCH' # Specify your Write API Key !!!
 
 def send_values( color, number, Type ):
     global API_KEY_WRITE
